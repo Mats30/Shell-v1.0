@@ -1,0 +1,16 @@
+*.class
+.idea/
+.classpath
+.project
+*.log
+*.jar
+target/
+*.class
+.idea/
+.classpath
+.project
+*.log
+*.jar
+target/
+.gitignore
+.idea/inspectionProfiles/

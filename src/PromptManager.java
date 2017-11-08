@@ -14,4 +14,5 @@ public class PromptManager {
     public String getPrompt() {
         return shouldDisplayCwd ? cwdManager.getCurrentDir().getAbsolutePath() : "?>";
     }
+
 }

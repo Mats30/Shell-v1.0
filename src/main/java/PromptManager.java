@@ -1,3 +1,4 @@
+
 public class PromptManager {
 
     boolean shouldDisplayCwd = false;

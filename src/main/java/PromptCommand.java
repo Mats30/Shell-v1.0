@@ -1,6 +1,11 @@
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 import java.util.List;
 
+
+@Component
+@ShellCommandName(commandName = "prompt")
 public class PromptCommand implements ShellCommand {
 
     public PromptCommand(PromptManager promptManager) {

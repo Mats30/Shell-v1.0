@@ -1,3 +1,5 @@
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -6,6 +8,8 @@ import java.io.File;
 
 import static java.util.stream.Collectors.toList;
 
+@Component
+@ShellCommandName(commandName = "dir")
 public class DirCommand implements ShellCommand{
 
     public DirCommand(CwdManager cwdManager) {

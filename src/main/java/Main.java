@@ -1,3 +1,5 @@
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 import java.util.Scanner;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -22,6 +24,13 @@ public class Main {
 
         //start point
         new MyShell(consoleReader, commandRegistry, System.out::println, exceptionHandler, promptManager).loop();
+
     }
+
+//    public static void main(String[] args) {
+//        new AnnotationConfigApplicationContext()
+//                .getBean(MyShell.class)
+//                .loop();
+//    }
 
 }
